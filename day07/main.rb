@@ -128,4 +128,4 @@ end
 
 part2 = 0
 ordered.each_with_index { |x, i| part2 += x[1] * (i + 1) }
-puts "Part 1: #{part2}"
+puts "Part 2: #{part2}"
